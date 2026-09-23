@@ -3,6 +3,10 @@ import Bitcoin from "../../assets/Bitcoin.svg";
 import Ethereum from "../../assets/Ethereum.svg";
 import Litecoin from "../../assets/Litecoin.svg";
 import Cardano from "../../assets/Cardano.svg";
+import BitcoinColored from "../../assets/Bitcoin-colored.svg";
+import EthereumColored from "../../assets/Ethereum-colored.svg";
+import LitecoinColored from "../../assets/Litecoin-colored.svg";
+import CardanoColored from "../../assets/Cardano-colored.svg";
 import ChartVisual from "../user_interface/chart_visual";
 import TransactionalTable from "../user_interface/transactional_table";
 
@@ -31,7 +35,7 @@ function Main() {
                         {/* Ethereum */}
                         <div className="grid grid-cols-[40px_1.2fr_0.8fr_0.9fr_1fr] items-center gap-[12px]">
                             <div className="w-[38px] h-[38px] rounded-full border border-[#E4E4E4] flex items-center justify-center">
-                                <img src={Ethereum} alt="Ethereum" className="w-[20px] h-[20px]" />
+                                <img src={EthereumColored} alt="Bitcoin" className="w-[20px] h-[20px]" />
                             </div>
                             <div>
                                 <p className="text-[13px] font-semibold">Ethereum</p>
@@ -52,7 +56,7 @@ function Main() {
                         {/* Bitcoin */}
                         <div className="grid grid-cols-[40px_1.2fr_0.8fr_0.9fr_1fr] items-center gap-[12px]">
                             <div className="w-[38px] h-[38px] rounded-full border border-[#E4E4E4] flex items-center justify-center">
-                                <img src={Bitcoin} alt="Bitcoin" className="w-[20px] h-[20px]" />
+                                <img src={BitcoinColored} alt="Bitcoin" className="w-[20px] h-[20px]" />
                             </div>
                             <div>
                                 <p className="text-[13px] font-semibold">Bitcoin</p>
@@ -73,7 +77,7 @@ function Main() {
                         {/* Litecoin */}
                         <div className="grid grid-cols-[40px_1.2fr_0.8fr_0.9fr_1fr] items-center gap-[12px]">
                             <div className="w-[38px] h-[38px] rounded-full border border-[#E4E4E4] flex items-center justify-center">
-                                <img src={Litecoin} alt="Litecoin" className="w-[20px] h-[20px]" />
+                                <img src={LitecoinColored} alt="Litecoin" className="w-[20px] h-[20px]" />
                             </div>
                             <div>
                                 <p className="text-[13px] font-semibold">Litecoin</p>
@@ -94,7 +98,7 @@ function Main() {
                         {/* Cardano */}
                         <div className="grid grid-cols-[40px_1.2fr_0.8fr_0.9fr_1fr] items-center gap-[12px]">
                             <div className="w-[38px] h-[38px] rounded-full border border-[#E4E4E4] flex items-center justify-center">
-                                <img src={Cardano} alt="Cardano" className="w-[20px] h-[20px]" />
+                                <img src={CardanoColored} alt="Cardano" className="w-[20px] h-[20px]" />
                             </div>
                             <div>
                                 <p className="text-[13px] font-semibold">Cardano</p>

@@ -41,8 +41,7 @@ function Sidebar() {
                         </span>
                         
                         {item.active && (
-                            <div className="hidden xl:block absoluteright-[28px] w-[10px] h-[10px] rounded-full bg-[#6154F0]"></div>
-                        )}
+                            <div className="hidden xl:block absoluteright-[28px] w-[10px] h-[10px] rounded-full bg-[#6154F0]"></div>)}
                     </div>
                 ))}
             </nav>
